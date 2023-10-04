@@ -19,3 +19,50 @@ test :
 	g++ -O3 -o optimize1 q1.o
 
 	./debug1
+
+# Q2
+# all things are same as Question 1 
+# but it is assumed that libraries of III-Delhi & AIIMS Delhi are used 
+# when book is not found in our library it goes to other 2 libraries
+# 6 books 3 from each has all details
+# user can search it (same as part 1), get it's location , and then issue it (same as above)
+# then execute the following using GitBash
+
+# Question 2
+	g++ -c q2.cpp
+	g++ -g -o debug2 q2.o
+	g++ -O3 -o optimize2 q2.o
+
+	./debug2
+
+# Q3
+# all is ame as part 1 , budget is fixed at 1000
+# journal array has all journals
+# whole journals' list is displayed then user uses S.No. to search from it
+# assume journal no. 75-98 are out of budget
+# if not subscribed then there is instant subscription and each subscribed journal cost = 10 is deducted from budget , then issued
+# for unsubscribed journals , there exist a track of requests made in req[]
+# if already subscribed then instantly issued
+# then execute the following using GitBash
+
+# Question 3
+
+	g++ -c 3.cpp
+	g++ -g -o debug3 3.o
+	g++ -O3 -o optimize3 3.o
+
+	./debug3    
+
+# Question 2
+	g++ -c 2.cpp
+	g++ -g -o debug2 2.o
+	g++ -O3 -o optimize2 2.o
+
+	./debug2
+
+# Question 3
+	g++ -c 3.cpp
+	g++ -g -o debug3 3.o
+	g++ -O3 -o optimize3 3.o
+
+	./debug3
