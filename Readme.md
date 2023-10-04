@@ -19,3 +19,18 @@ test :
 	g++ -O3 -o optimize1 q1.o
 
 	./debug1
+
+# Q2
+# all things are same as Question 1 
+# but it is assumed that libraries of III-Delhi & AIIMS Delhi are used 
+# when book is not found in our library it goes to other 2 libraries
+# 6 books 3 from each has all details
+# user can search it (same as part 1), get it's location , and then issue it (same as above)
+# then execute the following using GitBash
+
+# Question 2
+	g++ -c q2.cpp
+	g++ -g -o debug2 q2.o
+	g++ -O3 -o optimize2 q2.o
+
+	./debug2
